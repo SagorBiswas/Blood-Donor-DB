@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.ChangepassController">
+   <children>
+      <Button layoutX="114.0" layoutY="486.0" mnemonicParsing="false" onAction="#backctrl" prefHeight="46.0" prefWidth="108.0" text="&lt;==Back" />
+      <Button layoutX="289.0" layoutY="449.0" mnemonicParsing="false" onAction="#submitter" prefHeight="37.0" prefWidth="108.0" text="Submit" />
+      <Text fill="#1931d0" layoutX="100.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Old Password :" wrappingWidth="274.2578125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#1931d0" layoutX="100.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter User Name :" wrappingWidth="243.2578125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="opass" layoutX="100.0" layoutY="225.0" prefHeight="46.0" prefWidth="320.0" />
+      <TextField fx:id="name" layoutX="100.0" layoutY="120.0" prefHeight="46.0" prefWidth="320.0" />
+      <Text fill="#1931d0" layoutX="100.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter New Password :" wrappingWidth="280.2578125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="npass" layoutX="100.0" layoutY="337.0" prefHeight="46.0" prefWidth="320.0" />
+      <Label fx:id="label2" layoutX="111.0" layoutY="401.0" prefHeight="37.0" prefWidth="298.0" textFill="#da0f0f" />
+      <Label fx:id="label1" layoutX="111.0" layoutY="401.0" prefHeight="37.0" prefWidth="298.0" textFill="#0bda31" />
+   </children>
+</AnchorPane>

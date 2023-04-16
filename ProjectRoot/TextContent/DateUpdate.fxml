@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="label" prefHeight="600.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.DateUpdateController">
+   <children>
+      <TextField fx:id="mbl" layoutX="107.0" layoutY="275.0" prefHeight="31.0" prefWidth="370.0" promptText="01XXXXXXXXX" />
+      <TextField fx:id="nme" layoutX="107.0" layoutY="180.0" prefHeight="31.0" prefWidth="370.0" promptText="XXXXXXXXXXXX" />
+      <Text layoutX="107.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Mobile Number :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="110.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Donor's Name :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="107.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Donate Date :" wrappingWidth="172.61669921875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="backbtn" layoutX="83.0" layoutY="536.0" mnemonicParsing="false" onAction="#backctrl" prefHeight="32.0" prefWidth="103.0" text="&lt;==Back" />
+      <Button layoutX="141.0" layoutY="484.0" mnemonicParsing="false" onAction="#clear" prefHeight="32.0" prefWidth="135.0" text="Reset" />
+      <Button layoutX="284.0" layoutY="484.0" mnemonicParsing="false" onAction="#btnctrl" prefHeight="32.0" prefWidth="135.0" text="Submit" />
+      <Label fx:id="LABEL" layoutX="141.0" layoutY="435.0" prefHeight="32.0" prefWidth="276.0" textFill="#d70909" />
+      <Label fx:id="LABEL1" layoutX="146.0" layoutY="435.0" prefHeight="32.0" prefWidth="276.0" textFill="#1fe467" />
+      <DatePicker fx:id="dp" layoutX="158.0" layoutY="387.0" prefHeight="31.0" prefWidth="284.0" />
+   </children>
+</AnchorPane>

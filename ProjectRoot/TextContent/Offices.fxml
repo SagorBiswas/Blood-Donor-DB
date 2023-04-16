@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication1.OfficesController">
+   <children>
+      <Button layoutX="102.0" layoutY="54.0" mnemonicParsing="false" onAction="#psschanger" prefHeight="254.0" prefWidth="143.0" text="Change Password" />
+      <Button layoutX="342.0" layoutY="54.0" mnemonicParsing="false" onAction="#addunit" prefHeight="254.0" prefWidth="143.0" text="Add New Unit" />
+      <Button layoutX="227.0" layoutY="339.0" mnemonicParsing="false" onAction="#backctrl" prefHeight="31.0" prefWidth="132.0" text="Back" />
+   </children>
+</AnchorPane>

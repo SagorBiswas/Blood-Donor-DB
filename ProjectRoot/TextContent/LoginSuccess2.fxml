@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.LoginSuccessController">
+   <children>
+      <Text fill="#170397" layoutX="125.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Successful">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Text>
+      <Button fx:id="button" layoutX="188.0" layoutY="448.0" onAction="#ButtonCtrl" prefHeight="48.0" prefWidth="224.0" text="Click to Continue" />
+      <ImageView fitHeight="234.0" fitWidth="189.0" layoutX="206.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="BinaryContent/isuccess.gif" />
+          </image>
+      </ImageView>
+   </children>
+</AnchorPane>

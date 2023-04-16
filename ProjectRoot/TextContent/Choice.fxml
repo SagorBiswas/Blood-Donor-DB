@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.ChoiceController">
+   <children>
+      <Text fill="#123bd0" layoutX="204.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click Your Choice" textAlignment="CENTER" wrappingWidth="335.15869140625">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button fx:id="button3" layoutX="390.0" layoutY="119.0" onAction="#SearchCtrl" prefHeight="48.0" prefWidth="274.0" text="Search for Donor" textFill="#0f5db5" />
+      <Button fx:id="button31" layoutX="390.0" layoutY="175.0" onAction="#EntryCtrl" prefHeight="48.0" prefWidth="274.0" text="Entry a Donor" textFill="#0f5db5" />
+      <Button fx:id="button32" layoutX="390.0" layoutY="234.0" onAction="#UpdateCtrl" prefHeight="48.0" prefWidth="274.0" text="Update Donor's Info" textFill="#0f5db5" />
+      <Button fx:id="button33" layoutX="390.0" layoutY="292.0" onAction="#DateUpdateCtrl" prefHeight="48.0" prefWidth="274.0" text="Update donation" textFill="#0f5db5" />
+      <Button fx:id="button331" layoutX="390.0" layoutY="412.0" onAction="#ExitCtrl" prefHeight="48.0" prefWidth="274.0" text="Exit" textFill="#b21023" />
+      <ImageView fitHeight="335.0" fitWidth="287.0" layoutX="75.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+              <Image url="BinaryContent/ichoice.jpg" />
+          </image>
+      </ImageView>
+      <Button fx:id="button332" layoutX="390.0" layoutY="353.0" onAction="#Units" prefHeight="48.0" prefWidth="274.0" text="Units" textFill="#0f5db5" />
+   </children>
+</AnchorPane>

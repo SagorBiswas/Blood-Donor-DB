@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.DonorEntryController">
+   <children>
+      <Text fill="#116bab" layoutX="137.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill the Form Please ..." wrappingWidth="346.6875">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name" layoutX="115.0" layoutY="158.0" prefHeight="44.0" prefWidth="434.0" promptText="Name" />
+      <TextField fx:id="age" layoutX="115.0" layoutY="214.0" prefHeight="44.0" prefWidth="434.0" promptText="Age" />
+      <TextField fx:id="weight" layoutX="117.0" layoutY="275.0" prefHeight="44.0" prefWidth="434.0" promptText="Weight" />
+      <TextField fx:id="mbl" layoutX="117.0" layoutY="336.0" prefHeight="44.0" prefWidth="434.0" promptText="Mobile Number" />
+      <Button layoutX="334.0" layoutY="638.0" mnemonicParsing="false" onAction="#btnctrl" prefHeight="44.0" prefWidth="135.0" text="Submit" />
+      <Label fx:id="label2" layoutX="116.0" layoutY="584.0" prefHeight="29.0" prefWidth="368.0" textFill="#c90808">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="backbtn" layoutX="63.0" layoutY="707.0" mnemonicParsing="false" onAction="#backctrl" prefHeight="44.0" prefWidth="103.0" text="&lt;==Back" />
+      <Button layoutX="184.0" layoutY="638.0" mnemonicParsing="false" onAction="#clear" prefHeight="44.0" prefWidth="135.0" text="Reset" />
+      <Label fx:id="label1" layoutX="141.0" layoutY="584.0" prefHeight="29.0" prefWidth="368.0" textFill="#1deb7a">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Text layoutX="36.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" wrappingWidth="75.61669921875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="46.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :" textAlignment="RIGHT" wrappingWidth="55.61669921875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight :" wrappingWidth="81.61669921875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile :" wrappingWidth="81.61669921875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="BGcmbx" layoutX="120.0" layoutY="411.0" prefHeight="31.0" prefWidth="410.0" promptText="Blood Group" visibleRowCount="8">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <Text layoutX="36.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Donate Date :" wrappingWidth="172.61669921875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="hallcmbx" layoutX="120.0" layoutY="465.0" prefHeight="31.0" prefWidth="410.0" promptText="Recidential Hall" visibleRowCount="8">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <DatePicker fx:id="dp" layoutX="233.0" layoutY="530.0" prefHeight="31.0" prefWidth="225.0" />
+   </children>
+</AnchorPane>

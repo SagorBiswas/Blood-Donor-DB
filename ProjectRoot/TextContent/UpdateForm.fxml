@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.UpdateFormController">
+   <children>
+      <Text fill="#19a19a" layoutX="140.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Updating Form" textAlignment="CENTER" wrappingWidth="337.6708984375">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="100.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Donor's Name :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="97.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Mobile Number :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="97.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What do you want to update ?">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="97.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correct/Latest Information :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nme" layoutX="97.0" layoutY="170.0" prefHeight="31.0" prefWidth="407.0" promptText="xxxxxxxxxx" />
+      <TextField fx:id="mbl" layoutX="97.0" layoutY="265.0" prefHeight="31.0" prefWidth="407.0" promptText="xxxxxxxxxxx" />
+      <TextField fx:id="info" layoutX="97.0" layoutY="475.0" prefHeight="31.0" prefWidth="407.0" promptText="xxxxxxxxxxx" />
+      <Button layoutX="369.0" layoutY="559.0" mnemonicParsing="false" onAction="#btnctrl" prefHeight="31.0" prefWidth="135.0" text="Update" />
+      <Label fx:id="label" layoutX="132.0" layoutY="521.0" prefHeight="32.0" prefWidth="338.0" textFill="#bc0505">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="57.0" layoutY="590.0" mnemonicParsing="false" onAction="#backctrl" prefHeight="49.0" prefWidth="111.0" text="&lt;==Back" />
+      <Label fx:id="label1" layoutX="140.0" layoutY="521.0" prefHeight="32.0" prefWidth="338.0" textFill="#0dbc67">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="226.0" layoutY="559.0" mnemonicParsing="false" onAction="#clear" prefHeight="31.0" prefWidth="135.0" text="Reset" />
+      <ComboBox fx:id="updt" layoutX="87.0" layoutY="368.0" prefHeight="31.0" prefWidth="413.0" promptText="Update" />
+   </children>
+</AnchorPane>

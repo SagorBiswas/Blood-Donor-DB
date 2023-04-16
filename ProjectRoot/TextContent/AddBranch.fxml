@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication1.AddBranchController">
+   <children>
+      <TextField fx:id="name" layoutX="90.0" layoutY="118.0" prefHeight="59.0" prefWidth="320.0" />
+      <TextField fx:id="pass" layoutX="90.0" layoutY="277.0" prefHeight="59.0" prefWidth="320.0" />
+      <Text fill="#1931d0" layoutX="90.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Unit Name :" wrappingWidth="243.2578125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#1931d0" layoutX="90.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Password :" wrappingWidth="243.2578125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="279.0" layoutY="401.0" mnemonicParsing="false" onAction="#submitter" prefHeight="37.0" prefWidth="108.0" text="Submit" />
+      <Button layoutX="104.0" layoutY="476.0" mnemonicParsing="false" onAction="#backctrl" prefHeight="46.0" prefWidth="108.0" text="&lt;==Back" />
+      <Label fx:id="label1" layoutX="90.0" layoutY="355.0" prefHeight="37.0" prefWidth="298.0" textFill="#0bda31" />
+      <Label fx:id="label2" layoutX="101.0" layoutY="355.0" prefHeight="37.0" prefWidth="298.0" textFill="#da0f0f" />
+   </children>
+</AnchorPane>

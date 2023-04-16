@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.PageShowController">
+   <children>
+      <TableView fx:id="Table" layoutY="94.0" prefHeight="739.0">
+        <columns>
+          <TableColumn fx:id="name" minWidth="400.0" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="age" minWidth="100.0" prefWidth="75.0" text="Age" />
+            <TableColumn fx:id="BG" minWidth="150.0" prefWidth="75.0" text="Blood Group" />
+            <TableColumn fx:id="weight" minWidth="100.0" prefWidth="75.0" text="Weight" />
+            <TableColumn fx:id="hall" minWidth="200.0" prefWidth="75.0" text="Hall" />
+            <TableColumn fx:id="mobile" minWidth="250.0" prefWidth="257.0" text="Mobile Number" />
+        </columns>
+      </TableView>
+      <Button layoutX="246.0" layoutY="850.0" mnemonicParsing="false" onAction="#Terminate" prefHeight="36.0" prefWidth="335.0" text="Exit" textFill="#fc0606" />
+      <Text fill="#221590" layoutX="-6.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donor Bank" textAlignment="CENTER" wrappingWidth="1225.22265625">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Button layoutX="629.0" layoutY="850.0" mnemonicParsing="false" onAction="#backctrl" prefHeight="36.0" prefWidth="335.0" text="Back" />
+      <ComboBox fx:id="BGcmbx" layoutX="14.0" layoutY="24.0" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="215.0" promptText="Blood Group" visibleRowCount="8">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+   </children>
+</AnchorPane>
